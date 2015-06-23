@@ -11,9 +11,9 @@
 		B63CF7D31B399E14005C0608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63CF7D21B399E14005C0608 /* AppDelegate.m */; };
 		B63CF7D61B399E14005C0608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63CF7D51B399E14005C0608 /* ViewController.m */; };
 		B63CF7D91B399E14005C0608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7D71B399E14005C0608 /* Main.storyboard */; };
-		B63CF7DB1B399E14005C0608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7DA1B399E14005C0608 /* Images.xcassets */; };
 		B63CF7DE1B399E14005C0608 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7DC1B399E14005C0608 /* LaunchScreen.xib */; };
 		B63CF7EA1B399E14005C0608 /* ScrollView_Part1_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63CF7E91B399E14005C0608 /* ScrollView_Part1_4Tests.m */; };
+		B63CF7F41B39A195005C0608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7F31B39A195005C0608 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +35,11 @@
 		B63CF7D41B399E14005C0608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B63CF7D51B399E14005C0608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B63CF7D81B399E14005C0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B63CF7DA1B399E14005C0608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B63CF7DD1B399E14005C0608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B63CF7E31B399E14005C0608 /* ScrollView-Part1-4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView-Part1-4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63CF7E81B399E14005C0608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63CF7E91B399E14005C0608 /* ScrollView_Part1_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_Part1_4Tests.m; sourceTree = "<group>"; };
+		B63CF7F31B39A195005C0608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../ScrollView-Images/Images.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				B63CF7D41B399E14005C0608 /* ViewController.h */,
 				B63CF7D51B399E14005C0608 /* ViewController.m */,
 				B63CF7D71B399E14005C0608 /* Main.storyboard */,
-				B63CF7DA1B399E14005C0608 /* Images.xcassets */,
+				B63CF7F31B39A195005C0608 /* Images.xcassets */,
 				B63CF7DC1B399E14005C0608 /* LaunchScreen.xib */,
 				B63CF7CD1B399E14005C0608 /* Supporting Files */,
 			);
@@ -200,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63CF7D91B399E14005C0608 /* Main.storyboard in Resources */,
+				B63CF7F41B39A195005C0608 /* Images.xcassets in Resources */,
 				B63CF7DE1B399E14005C0608 /* LaunchScreen.xib in Resources */,
-				B63CF7DB1B399E14005C0608 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
