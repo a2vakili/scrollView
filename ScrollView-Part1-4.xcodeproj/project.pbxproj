@@ -14,6 +14,7 @@
 		B63CF7DE1B399E14005C0608 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7DC1B399E14005C0608 /* LaunchScreen.xib */; };
 		B63CF7EA1B399E14005C0608 /* ScrollView_Part1_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63CF7E91B399E14005C0608 /* ScrollView_Part1_4Tests.m */; };
 		B63CF7F41B39A195005C0608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63CF7F31B39A195005C0608 /* Images.xcassets */; };
+		B6B76E111B39CD2E00453C3E /* ZoomOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B76E101B39CD2E00453C3E /* ZoomOutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B63CF7E81B399E14005C0608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B63CF7E91B399E14005C0608 /* ScrollView_Part1_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_Part1_4Tests.m; sourceTree = "<group>"; };
 		B63CF7F31B39A195005C0608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../ScrollView-Images/Images.xcassets"; sourceTree = "<group>"; };
+		B6B76E0F1B39CD2E00453C3E /* ZoomOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomOutViewController.h; sourceTree = "<group>"; };
+		B6B76E101B39CD2E00453C3E /* ZoomOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomOutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B63CF7D21B399E14005C0608 /* AppDelegate.m */,
 				B63CF7D41B399E14005C0608 /* ViewController.h */,
 				B63CF7D51B399E14005C0608 /* ViewController.m */,
+				B6B76E0F1B39CD2E00453C3E /* ZoomOutViewController.h */,
+				B6B76E101B39CD2E00453C3E /* ZoomOutViewController.m */,
 				B63CF7D71B399E14005C0608 /* Main.storyboard */,
 				B63CF7F31B39A195005C0608 /* Images.xcassets */,
 				B63CF7DC1B399E14005C0608 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				B63CF7D61B399E14005C0608 /* ViewController.m in Sources */,
 				B63CF7D31B399E14005C0608 /* AppDelegate.m in Sources */,
+				B6B76E111B39CD2E00453C3E /* ZoomOutViewController.m in Sources */,
 				B63CF7D01B399E14005C0608 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				B63CF7EF1B399E14005C0608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B63CF7F01B399E14005C0608 /* Build configuration list for PBXNativeTarget "ScrollView-Part1-4Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				B63CF7F21B399E14005C0608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
