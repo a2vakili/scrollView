@@ -10,6 +10,7 @@
 
 @interface ZoomOutViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -17,26 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.scrollView.delegate= self;
     
-    self.scrollView.delegate= self;
-    UIImage *image1= [UIImage imageNamed:@"Lighthouse-in-Field"];
-    UIImage *image2= [UIImage imageNamed:@"Lighthouse-night"];
-    UIImage *image3= [UIImage imageNamed:@"Lighthouse-zoomed"];
-    NSArray *images= @[image1,image2,image3];
     
-    CGFloat xPosition= 0;
-    for (UIImage *image in images) {
-        UIImageView *imageView= [[UIImageView alloc] initWithImage:image];
-        //        UIView *imageView= [[UIView alloc]initWithFrame:{xPosition, 0, self.scrollView.frame.size.width,self.scrollView.frame.size.height}];
-        CGRect frame= CGRectMake(xPosition, 0 , self.scrollView.frame.size.width, self.scrollView.frame.size.height);
-        imageView.frame= frame;
-        xPosition+= self.scrollView.frame.size.width;
-        imageView.contentMode= UIViewContentModeScaleAspectFit;
-        imageView.clipsToBounds = YES;
-    }
-}
+    
+    
+    
+    self.imageView= [[UIImageView alloc]initWithImage:self.zoomImage];
+    [self.scrollView addSubview:self.imageView];
+    
+   self.scrollView.delegate= self;
 
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -45,7 +38,8 @@
 
 
 - (UIImageView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-    return [self.scrollView.subviews firstObject];
+    //return [self.scrollView.subviews firstObject];
+    return self.imageView;
 }
 
 /*

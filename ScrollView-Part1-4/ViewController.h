@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZoomOutViewController.h"
 
 @interface ViewController : UIViewController<UIScrollViewDelegate>
 

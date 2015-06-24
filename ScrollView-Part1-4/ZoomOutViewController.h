@@ -9,4 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZoomOutViewController : UIViewController<UIScrollViewDelegate>;
+
+@property(nonatomic,strong) UIImage *zoomImage;
 @end
